@@ -3,7 +3,7 @@ public class TiposVariaveis {
         //tipos primitivos
         // estude a classe String que representa texto na aplicação
         String meuNome = "Sofia Teixeira";
-        
+
         double salarioMinimo = 2500;
 
         short numeroCurto = 1;
@@ -25,5 +25,6 @@ public class TiposVariaveis {
         System.out.println(VALOR_DE_PI);
         VALOR_PI = 14.14;
         System.out.println(VALOR_DE_PI);
+        
     }
 }
