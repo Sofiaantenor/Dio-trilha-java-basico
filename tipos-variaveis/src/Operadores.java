@@ -41,8 +41,7 @@ public class Operadores {
         System.out.println(numero1); //-5
         numero1 = numero1 * -1;
         System.out.println(numero1); //5
-
-        //x repetição
+        
         numero1 = numero1 + 1;
         System.out.println(numero1); // 6
         numero1++;
@@ -60,7 +59,24 @@ public class Operadores {
         System.out.println(variavel); // true
         variavel = !variavel;
         System.out.println(variavel);  //false
-        
+
+        // operador TERNÁRIO
+        int a,b;
+        String resultado_opr = "";
+        a = 5;
+        b = 6;
+        // Exemplo de  condicional utilizando uma estrutura if/else
+        if(a==b)
+            resultado_opr = "Verdadeiro";
+        else 
+            resultado_opr = "Falso";
+        System.out.println(resultado_opr);
+
+        // Mesma condiciona, mas dessa vez, utilizando o operador condicional Ternário
+        resultado_opr = a==b ? "Verdadeiro" : "Falso";
+        System.out.println(resultado_opr);
+        int resulta = a==b ? 1 : 0;
+        System.out.println(resulta);
 
 
 
