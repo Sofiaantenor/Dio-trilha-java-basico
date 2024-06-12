@@ -78,6 +78,41 @@ public class Operadores {
         int resulta = a==b ? 1 : 0;
         System.out.println(resulta);
 
+        // operadores RELACIONAIS
+        int n1 = 1;
+        int n2 = 2;
+        boolean simNao = n1 == n2;
+        System.out.println("Número 1 é IGUAL ao número 2?  " + simNao);
+
+        simNao = n1 != n2;
+        System.out.println("Número 1 é DIFERENTE ao número 2?  " + simNao);
+
+        simNao = n1 > n2;
+        System.out.println("Número 1 é MAIOR ao número 2?  " + simNao);
+
+        simNao = n1 >= n2;
+        System.out.println("Número 1 é MAIOR OU IGUAL ao número 2?  " + simNao);
+
+        if(n1<n2){
+            System.out.println("A nossa condição é verdadeira");
+        }
+        
+        if(n1==n2){
+            System.out.println("A nossa condição é verdadeira");
+        }
+
+        String nomeUm = "SOFIA";
+        String nomeDois = "SOFIA";
+        System.out.println(nomeUm==nomeDois); // true 
+
+        nomeDois = new String("SOFIA");
+        System.out.println(nomeUm==nomeDois);  // false
+        System.out.println(nomeUm.equals(nomeDois)); // true  - eguals compara conteúdos
+
+        
+
+
+
 
 
 
