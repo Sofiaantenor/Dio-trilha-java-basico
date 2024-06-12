@@ -42,6 +42,27 @@ public class Operadores {
         numero1 = numero1 * -1;
         System.out.println(numero1); //5
 
+        //x repetição
+        numero1 = numero1 + 1;
+        System.out.println(numero1); // 6
+        numero1++;
+        System.out.println(numero1); // 6
+        System.out.println(numero1++); // 5
+        System.out.println(numero1); // 6
+        System.out.println(++numero1); // 6
+
+        System.out.println(numero1--); // 5
+        System.out.println(numero1); // 4
+        System.out.println(--numero1); // 4
+
+        boolean variavel = true;
+        System.out.println(!variavel); // false
+        System.out.println(variavel); // true
+        variavel = !variavel;
+        System.out.println(variavel);  //false
+        
+
+
 
 
     }
