@@ -109,7 +109,23 @@ public class Operadores {
         System.out.println(nomeUm==nomeDois);  // false
         System.out.println(nomeUm.equals(nomeDois)); // true  - eguals compara conteúdos
 
-        
+        // operadores LÓGICOS 
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeiras");
+        }
+
+        if(condicao1 && ( 7 > 4)){
+            System.out.println("As duas condições são verdadeiras");
+        }
+
+        System.out.println("FIM");
 
 
 
